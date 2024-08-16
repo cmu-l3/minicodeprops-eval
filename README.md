@@ -1,7 +1,7 @@
 # minicodeprops-eval
 
 This repository contains evaluation scripts for:
-*miniCodeProps: a Minimal Benchmark for Proving Code Properties*
+*[miniCodeProps: a Minimal Benchmark for Proving Code Properties](https://arxiv.org/abs/2406.11915)*
 ```
 @misc{lohn2024minicodepropsminimalbenchmarkproving,
       title={miniCodeProps: a Minimal Benchmark for Proving Code Properties}, 
@@ -11,21 +11,6 @@ This repository contains evaluation scripts for:
       archivePrefix={arXiv},
       primaryClass={cs.SE},
       url={https://arxiv.org/abs/2406.11915}, 
-}
-```
-
-
-The evaluation adapts the [minictx-eval](https://github.com/cmu-l3/minictx-eval) repo from:
-*miniCTX: Neural Theorem Proving with (Long-)Contexts*
-```
-@misc{hu2024minictxneuraltheoremproving,
-      title={miniCTX: Neural Theorem Proving with (Long-)Contexts}, 
-      author={Jiewen Hu and Thomas Zhu and Sean Welleck},
-      year={2024},
-      eprint={2408.03350},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2408.03350}, 
 }
 ```
 
@@ -131,3 +116,20 @@ thread.join()
 ```
 
 `thread.submit_and_receive` takes a dictionary as input and returns the output of the REPL in a dictionary.
+
+
+## Credits
+
+The implementation adapts the [minictx-eval](https://github.com/cmu-l3/minictx-eval) repo from:
+*[miniCTX: Neural Theorem Proving with (Long-)Contexts](https://www.arxiv.org/abs/2408.03350)*
+```
+@misc{hu2024minictxneuraltheoremproving,
+      title={miniCTX: Neural Theorem Proving with (Long-)Contexts}, 
+      author={Jiewen Hu and Thomas Zhu and Sean Welleck},
+      year={2024},
+      eprint={2408.03350},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2408.03350}, 
+}
+```
