@@ -33,7 +33,10 @@ This repository contains evaluation scripts for:
 
 1. **Install Lean 4**
 
-   Follow the instructions on the [Lean 4 installation page](https://leanprover.github.io/lean4/doc/quickstart.html) to set up Lean 4.
+   If you are running Linux, you need only install elan following [these instructions](https://leanprover-community.github.io/install/linux.html). There is no need to install a code editor
+   (i.e. no need to follow the instructions to install VS-code). To ensure your path is updated, you should run `source $HOME/.elan/env` as prompted by the installer
+   If you are evaluating in an environment with vscode, follow the instructions on the [Lean 4 installation page](https://leanprover.github.io/lean4/doc/quickstart.html) to set up Lean 4.
+   
 
 2. **Set up and build your target Lean project**
 
